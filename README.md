@@ -11,7 +11,7 @@ This repository contains a python client for AWS Lambda that can be used to moni
  to help educate their peers about cost savings best practices
 
 
-###Requirements
+## Requirements
 
 1. The application logic requires `Python 2.7`.
 2. You'll also have to verify that the Cloud Formation template properly creates and configures the 
@@ -20,7 +20,7 @@ API calls via cloudTrail, write logs to Cloudwatch, and Tag Ec2 Instances
 3. You can also copy and paste the python into the Lambda Function that is created as a result of the cloudformation template 
 to prevent issues or manually configure the function yourself
 
-###Usage
+## Usage
 2. Clone this repository to a directory e.g. `git clone https://github.com/patalwell/awsLambdaPythonAutoTagEc2.git`
 2. Log into AWS
 3. Turn on Cloudtrail for the awsRegion in which you wish to enable autoTagging
