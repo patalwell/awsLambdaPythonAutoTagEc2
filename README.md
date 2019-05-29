@@ -1,6 +1,6 @@
 # awsLambdaPythonAutoTagEc2
 
-![Image](https://github.com/patalwell/ec2_autoTag_LambdaFunction/blob/master/AutoTagDiagram.png)
+![Image](https://github.com/patalwell/awsLambdaPythonAutoTagEc2/blob/master/AutoTagDiagram.png)
 
 This repository contains a python client for AWS Lambda that can be used to monitor AWS resources and automatically tag
  AWS objects like EC2 instances or EBS volumes on creation. The function specifically identifies which User is creating 
